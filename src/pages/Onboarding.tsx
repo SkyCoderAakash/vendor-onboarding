@@ -146,6 +146,8 @@ const Onboarding: React.FC = () => {
     );
   }
 
+  const currentData = getCurrentStepData();
+
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto px-4">
@@ -171,7 +173,7 @@ const Onboarding: React.FC = () => {
           <CurrentStepComponent
             onSubmit={handleStepSubmit}
             onPrevious={handlePrevious}
-            defaultValues={getCurrentStepData()}
+            defaultValues={currentData as any}
             isSubmitting={isSubmitting}
           />
         </div>

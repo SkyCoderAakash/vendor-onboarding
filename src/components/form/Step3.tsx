@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FormBuilder } from "../common/FormBuilder";
 import type { FieldConfig } from "../common/FormBuilder";
 import { step3Schema, type Step3Data } from "../../schemas/step3Schema";

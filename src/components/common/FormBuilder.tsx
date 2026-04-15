@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm, FormProvider } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import type { z } from "zod";
 import { Input } from "./Input";
 
 export interface FieldConfig {
@@ -31,7 +30,7 @@ export interface FieldConfig {
 
 interface FormBuilderProps {
   fields: FieldConfig[];
-  schema: z.ZodTypeAny;
+  schema: any;
   defaultValues: Record<string, any>;
   onSubmit: (data: any) => void;
   submitButtonText?: string;
