@@ -1,0 +1,9 @@
+{
+  "services": [
+    { "value": "web_development", "label": "Web Development" },
+    { "value": "mobile_development", "label": "Mobile Development" },
+    { "value": "cloud_services", "label": "Cloud Services" },
+    { "value": "consulting", "label": "IT Consulting" },
+    { "value": "support", "label": "24/7 Support" }
+  ]
+}

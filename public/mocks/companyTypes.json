@@ -1,0 +1,8 @@
+{
+  "companyTypes": [
+    { "value": "private_limited", "label": "Private Limited" },
+    { "value": "public_limited", "label": "Public Limited" },
+    { "value": "llp", "label": "LLP" },
+    { "value": "sole_proprietorship", "label": "Sole Proprietorship" }
+  ]
+}

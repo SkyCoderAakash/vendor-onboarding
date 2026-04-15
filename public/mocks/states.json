@@ -1,0 +1,18 @@
+{
+  "US": [
+    { "value": "NY", "label": "New York" },
+    { "value": "CA", "label": "California" }
+  ],
+  "UK": [
+    { "value": "LON", "label": "London" },
+    { "value": "MAN", "label": "Manchester" }
+  ],
+  "IN": [
+    { "value": "MH", "label": "Maharashtra" },
+    { "value": "DL", "label": "Delhi" }
+  ],
+  "CA": [
+    { "value": "ON", "label": "Ontario" },
+    { "value": "BC", "label": "British Columbia" }
+  ]
+}

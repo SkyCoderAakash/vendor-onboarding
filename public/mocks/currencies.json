@@ -1,0 +1,8 @@
+{
+  "currencies": [
+    { "value": "USD", "label": "USD - US Dollar" },
+    { "value": "EUR", "label": "EUR - Euro" },
+    { "value": "INR", "label": "INR - Indian Rupee" },
+    { "value": "GBP", "label": "GBP - British Pound" }
+  ]
+}

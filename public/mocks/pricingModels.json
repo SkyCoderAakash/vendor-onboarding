@@ -1,0 +1,7 @@
+{
+  "pricingModels": [
+    { "value": "subscription", "label": "Subscription" },
+    { "value": "one-time", "label": "One-time Payment" },
+    { "value": "pay-per-use", "label": "Pay-per-use" }
+  ]
+}
